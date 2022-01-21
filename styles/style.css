@@ -1,4 +1,20 @@
+/* Start journey */
+.link-button{
+    text-decoration: none;
+    background-color: rgb(161, 149, 151);
+    background-image: linear-gradient(rgb(240, 212, 217) pink);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 
+}
+.fa-arrow-right{
+    color: red;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
 /* Popular collection */
 .top-collection{
     display: grid;
@@ -10,4 +26,9 @@
 }
 .collection-detail{
     font-size: small;
+}
+.feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
 }
