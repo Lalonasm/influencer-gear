@@ -1,0 +1,13 @@
+
+/* Popular collection */
+.top-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0px;
+}
+.fa-star.filled{
+    color: orange;
+}
+.collection-detail{
+    font-size: small;
+}
