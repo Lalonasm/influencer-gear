@@ -1,4 +1,8 @@
+
 /* Start journey */
+.influence{
+    display: flex;
+}
 .link-button{
     text-decoration: none;
     background-color: rgb(161, 149, 151);
@@ -14,6 +18,11 @@
     font-weight: 700;
     border-radius: 5px;
     padding: 10px 40px;
+}
+.logo{
+    display: inline;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap: 5px;
 }
 /* Popular collection */
 .top-collection{
